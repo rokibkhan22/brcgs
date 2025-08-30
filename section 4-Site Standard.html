@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Clause 3 - BRC Issue 9</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 2rem; line-height: 1.6; }
+    h1 { color: #2c3e50; }
+    h2 { color: #2980b9; margin-top: 2rem; }
+    h3 { color: #16a085; margin-top: 1.5rem; }
+    p { margin: 0.5rem 0; }
+    ul { margin-top: 0.5rem; margin-bottom: 1rem; }
+  </style>
+<style>
+.nav-link {
+    transition: transform 0.2s ease-in-out;
+}
+.nav-link:active {
+    transform: scale(0.95);
+}
+</style></head>
+<body><div style="margin: 10px;"><a href="index.html" style="background-color: #003366; color: white; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-weight: bold;">Home</a></div><a name="top"></a><div id="nav" style="width:100%;background:white;padding:10px;border-bottom:2px solid #2c3e50;position:sticky;top:0;z-index:999;font-family:sans-serif;"><h1 id="Clause">Clause 4: Site Standard
+
+</h1><input id="searchBox" list="searchSuggestions" placeholder="Search..." style="width:60%;padding:8px 12px;margin-top:10px;border-radius:10px;border:2px solid #ccc;font-size:1em;box-shadow:inset 1px 1px 3px rgba(0,0,0,0.1);transition:0.3s ease-in-out;outline:none;" type="text"/><button onclick="searchText()" onmouseout="this.style.background='#2980b9'" onmouseover="this.style.background='#1f6390'" style="padding:8px 16px;margin-left:10px;border:none;border-radius:10px;background:#2980b9;color:white;font-weight:bold;font-size:1em;cursor:pointer;transition:background 0.3s ease-in-out;">Search</button><ul style="list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:10px;"><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.1'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.1 External Standards and Site Security</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.2'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.2 Food Defence</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.3'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.3 Layout, Product Flow and Segregation</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.4'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.4 Building Fabric, Raw Material-handling, Preparation, Processing, Packing and Storage Areas</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.5'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.5 Utilities – Water, Ice, Air and Other Gases</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.6'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.6 Equipment</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.7'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.7 Maintenance</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.8'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.8 Staff Facilities</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.9'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.9 Chemical and Physical Product Contamination Control</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.10'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.10 Foreign-body Detection and Removal Equipment</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.11'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.11 Housekeeping and Hygiene</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.12'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.12 Waste and Waste Disposal</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.13'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.13 Management of Surplus Food and Products for Animal Feed</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.14'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.14 Exteriors</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.15'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.15 Measuring and Monitoring Equipment</a></li><li style="text-align: justify;"><a class="nav-link" href="#" onclick="goToClause('4.16'); return false;" onmouseout="this.style.backgroundColor='#003366';" onmouseover="this.style.backgroundColor='#005599';" style="text-decoration:none;color:white;font-weight:bold;padding:6px 12px;border-radius:10px;background:#003366;transition:0.3s;display:inline-block;">4.16 Calibration and Control of Measuring Equipment</a></li></ul>
+<select id="fontSizeSelector" onchange="changeFontSize()" style="margin-left:20px;padding:6px 10px;border-radius:8px;border:1px solid #ccc;font-size:1em;">
+<option value="13px">Text Size: 13px</option>
+<option value="15px">Text Size: 15px</option>
+<option value="17px">Text Size: 17px</option>
+<option value="20px">Text Size: 20px</option>
+</select>
+<script>
+function changeFontSize() {
+    var size = document.getElementById("fontSizeSelector").value;
+    document.body.style.fontSize = size;
+}
+</script>
+</div>
+<h2 id="4.1">4.1 External Standards and Site Security
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>The production site shall be of suitable size, location and construction, and be maintained to reduce the risk of contamination and facilitate the production of safe and legal finished products.</p>
+<h3>4.1.1</h3>
+<p>Consideration shall be given to local activities and the site environment, which may have an adverse impact on finished product integrity, and measures shall be taken to prevent contamination. Where measures have been put into place to protect the site (from potential contaminants, flooding etc.), they shall be reviewed in response to any changes.</p>
+<h3>4.1.2</h3>
+<p>The external areas shall be maintained in good order. Where grassed or planted areas are located near buildings, they shall be regularly tended and well maintained. External traffic routes under site control shall be suitably surfaced and maintained in good repair to mitigate the risk of contamination of the product.</p>
+<h3>4.1.3</h3>
+<p>The building fabric shall be maintained to minimise potential for product contamination (e.g. elimination of bird-roosting sites, sealing gaps around pipes to prevent pest entry, ingress of water and other contaminants).</p>
+<h3>4.1.4</h3>
+<p>Policies and systems shall be in place to ensure that access to the site by staff, contractors and visitors is controlled. A visitor recording system shall be in place.<br/>
+Contractors and visitors, including drivers, shall be made aware of the procedures for access to the site.<br/>
+Only authorised personnel shall have access to production and storage areas. Contractors working in product processing or storage areas shall be the responsibility of a nominated person.<br/>
+Staff shall be trained in site security procedures.</p>
+<h2 id="4.2">4.2 Food Defence
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>Systems shall protect products, premises and brands from malicious actions while under the control of the site.</p>
+<h3>4.2.1</h3>
+<p>Where personnel are engaged in threat assessments and food defence plans, the individual or team responsible shall understand potential food defence risks at the site. This shall include knowledge of both the site and the principles of food defence.<br/>
+Where there is a legal requirement for specific training, this shall be in place.</p>
+<script>
+let searchResults = [];
+let currentSearchIndex = 0;
+
+function goToClause(clauseId) {
+    const target = document.getElementById(clauseId);
+    if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        const nav = document.getElementById('nav');
+        if (nav) nav.style.display = 'none';
+    }
+}
+
+function showNav() {
+    const nav = document.getElementById('nav');
+    if (nav) {
+        nav.style.display = 'block';
+        nav.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
+
+function searchText() {
+    const searchBox = document.getElementById('searchBox');
+    const searchText = searchBox.value.trim().toLowerCase();
+    const nav = document.getElementById('nav');
+
+    if (nav) {
+        const buttons = nav.querySelector("ul");
+        if (buttons) buttons.style.display = "none"; // hide clause buttons only
+    }
+
+    if (!searchText) return;
+
+    // If search term hasn't changed, cycle through existing matches
+    if (searchText === searchBox.dataset.lastSearch) {
+        scrollToResult(currentSearchIndex);
+        return;
+    }
+
+    // New search term
+    searchBox.dataset.lastSearch = searchText;
+    searchResults = [];
+    currentSearchIndex = 0;
+
+    // Clear highlights
+    document.querySelectorAll('.highlighted-search').forEach(el => {
+        el.outerHTML = el.innerHTML;
+    });
+
+    // Find and highlight matches
+    const elements = document.querySelectorAll('p, li, h1, h2, h3, h4, h5, h6');
+    elements.forEach(el => {
+        if (el.textContent.toLowerCase().includes(searchText)) {
+            const regex = new RegExp("(" + searchText + ")", "gi");
+            el.innerHTML = el.innerHTML.replace(regex, '<span class="highlighted-search" style="background:yellow;">$1</span>');
+        }
+    });
+
+    // Gather highlighted elements
+    document.querySelectorAll('.highlighted-search').forEach(el => {
+        searchResults.push(el);
+    });
+
+    if (searchResults.length > 0) {
+        scrollToResult(currentSearchIndex);
+    } else {
+        alert("No results found.");
+    }
+}
+
+function scrollToResult(index) {
+    if (index >= searchResults.length) index = 0;
+    const el = searchResults[index];
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    currentSearchIndex = index + 1;
+}
+
+document.getElementById('searchBox').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        searchText();
+    }
+});
+</script>
+</body>
+</html>
+<h3>4.2.2</h3>
+<p>The company shall undertake a documented risk assessment (threat assessment) of the potential risks to products from any deliberate attempt to inflict contamination or damage. This threat assessment shall include both internal and external threats.</p>
+<p>The output from this assessment shall be a documented food defence plan. This plan shall be kept under review to reflect changing circumstances and market intelligence. It shall be formally reviewed at least annually and whenever:
+<ul>
+<li>a new risk emerges (e.g. a new threat is publicised or identified)</li>
+<li>an incident occurs where product security or food defence is implicated.</li>
+</ul>
+Where applicable, the food defence plan shall meet the legal requirements in the country of sale or intended use.</p>
+<h3>4.2.3</h3>
+<p>Where raw materials or products are identified as being at particular risk, the food defence plan shall include controls to mitigate these risks. Where prevention is not sufficient or possible, systems shall be in place to identify any tampering.</p>
+<p>These controls shall be monitored, the results documented, and the controls reviewed at least annually.</p>
+<h3>4.2.4</h3>
+<p>Areas where a significant risk is identified shall be defined in the food defence plan, monitored and controlled. These shall include external storage and intake points for products and raw materials (including packaging).<br/>
+Staff shall be trained in food defence procedures.</p>
+<h2 id="4.3">4.3 Layout, Product Flow and Segregation
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>The facility layout, flow of processes and movement of personnel shall be sufficient to prevent the risk of product contamination and to comply with relevant legislation.</p>
+<h3>4.3.1</h3>
+<p>The site shall assess the production risk zones required for the products manufactured, processed or packed at the site, using the definitions in Appendix 2 of the Standard.</p>
+<h3>4.3.2</h3>
+<p>There shall be a map of the site. At a minimum, this map shall define:
+<ul>
+<li>production risk zones, where product is at different levels of risk from pathogen contamination – for example, high-risk, high-care, ambient high-care, low-risk and enclosed product areas</li>
+<li>access points for personnel</li>
+<li>access points for raw materials (including packaging), semi-finished products and open products</li>
+<li>routes of movement for personnel</li>
+<li>routes of movement for raw materials (including packaging)</li>
+<li>routes for the removal of waste</li>
+<li>routes for the movement of rework</li>
+<li>location of any staff facilities, including changing rooms, toilets, canteens and smoking areas</li>
+<li>production process flows</li>
+<li>any areas where time segregation is used to complete different activities (for example, time segregation for high-care areas).</li>
+</ul></p>
+<h3>4.3.3</h3>
+<p>Contractors and visitors, including drivers, shall be made aware of the requirements of the areas they are visiting, with special reference to hazards and potential product contamination.</p>
+<h3>4.3.4</h3>
+<p>The movement of personnel, raw materials, packaging, rework and/or waste shall not compromise the safety of products. The process flow, together with the use of demonstrably effective procedures, shall be in place to minimise the risk of the contamination of raw materials, intermediate/semi-processed products, packaging and finished products.</p>
+<h3>4.3.5</h3>
+<p>
+  
+  Premises shall allow sufficient working space and storage capacity to enable all operations to be carried out properly under safe hygienic conditions.</p>
+<h3>4.3.6</h3>
+<p>Temporary structures constructed during building work or refurbishment etc. shall be designed and located to avoid pest harbourage and ensure the safety and quality of products.</p>
+<h2 id="4.4">4.4 Building fabric, raw material-handling, preparation, processing, packing and storage areas
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>The fabrication of the site, buildings and facilities shall be suitable for the intended purpose.</p>
+<h3>4.4.1</h3>
+<p>Walls shall be finished and maintained to prevent the accumulation of dirt, minimise condensation and mould growth, and facilitate cleaning.</p>
+<h3>4.4.2</h3>
+<p>Floors shall be suitably hard-wearing to meet the demands of the process, and withstand cleaning materials and methods. They shall be impervious, be maintained in good repair and facilitate cleaning.</p>
+<h3>4.4.3</h3>
+<p>Drainage, where provided, shall be sited, designed and maintained to minimise risk of product contamination and not compromise product safety. Machinery and piping shall be arranged so that, wherever feasible, process waste water goes directly to drain. Where significant amounts of water are used, or direct piping to drain is not feasible, floors shall have adequate falls to cope with the flow of any water or effluent towards suitable drainage.</p>
+<h3>4.4.4</h3>
+<p>Ceilings and overheads shall be constructed, finished and maintained to prevent the risk of product contamination.</p>
+<h3>4.4.5</h3>
+<p>Where suspended ceilings or roof voids are present, adequate access to the void shall be provided to facilitate inspection for pest activity, unless the void is fully sealed.</p>
+<h3>4.4.6</h3>
+<p>Where elevated walkways, access steps or mezzanine floors are adjacent to or pass over production lines which have open products, they shall be:</p>
+<ul>
+<li>designed to prevent contamination of products and production lines</li>
+<li>easy to clean</li>
+<li>correctly maintained</li>
+</ul>
+<h3>4.4.7</h3>
+<p>Where there is a risk to product, windows and roof glazing which are designed to be opened for ventilation purposes shall be adequately screened to prevent the ingress of pests.</p>
+<h3>4.4.8</h3>
+<p>Doors (both internal and external) shall be maintained in good condition. At a minimum:</p>
+<ul>
+<li>external doors and dock levellers shall be close fitting or adequately proofed</li>
+<li>external doors to open product areas shall not be opened during production periods except in emergencies</li>
+<li>where external doors to enclosed product areas are opened, suitable precautions shall be taken to prevent pest ingress</li>
+</ul>
+<h3>4.4.9</h3>
+<p>Suitable and sufficient lighting shall be provided for correct operation of processes, inspection of product and effective cleaning.</p>
+<h3>4.4.10</h3>
+<p>Adequate ventilation and extraction shall be provided in product storage and processing environments to prevent condensation or excessive dust.</p>
+<h3>4.4.11</h3>
+<p>Where plastic strip curtains are present, these shall be maintained in good condition, clean, fitted correctly (e.g. to prevent pest ingress or for temperature control), and shall not pose a food safety risk.</p>
+<h2 id="4.5">4.5 Utilities – water, ice, air and other gases
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>Utilities used within the production and storage areas shall be monitored to effectively control the risk of product contamination.</p>
+<h3>4.5.1</h3>
+<p>All water (including ice and steam) used as a raw material in the manufacture of processed food, the preparation of product, hand-washing or equipment or plant cleaning shall be supplied in sufficient quantity, be potable at point of use, be fit for purpose and pose no risk of contamination according to applicable legislation.</p>
+<p>Where water is stored and handled on site (e.g. in storage or holding tanks), these shall be managed to minimise food safety risks.</p>
+<p>The microbiological and chemical quality of water shall be analysed as required by legislation or at least annually. The sampling points, scope of the test and frequency of analysis shall be based on risk, taking into account the source of the water, on-site storage and distribution facilities, previous sample history and usage.</p>
+<h3>4.5.2</h3>
+<p>An up-to-date schematic diagram shall be available of the water distribution system on site, including water source, holding tanks, water treatment and water recycling as appropriate. The diagram shall be used as a basis for water sampling and the management of water quality.</p>
+<h3>4.5.3</h3>
+<p>Air and other gases used as an ingredient or that are in direct contact with products shall be monitored to ensure this does not represent a contamination risk. Compressed air that is in direct contact with the product shall be filtered at point of use.</p>
+<h2 id="4.6">4.6 Equipment
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>All production and product-handling equipment shall be suitable for the intended purpose and shall be used to minimise the risk of contamination of product.</p>
+<h3>4.6.1</h3>
+<p>There shall be a documented purchase specification for any new equipment detailing the site requirements for the equipment. This may, for example, include:</p>
+<ul>
+<li>any relevant legislation</li>
+<li>where applicable, requirements for food contact surfaces to meet legal requirements</li>
+<li>details of intended use of the equipment and the type of materials it will be handling</li>
+</ul>
+<p>Depending on its intended use, new equipment to site (including second-hand equipment) may require authorisation from a multi-disciplinary team.</p>
+<p>The supplier should provide evidence that equipment meets these site requirements prior to supply.</p>
+<h3>4.6.2</h3>
+<p>The design and construction of equipment shall be based on risk, to prevent product contamination. For example, the use of the correct seals, impervious surfaces or smooth welds and joints, where they are exposed to product and could otherwise result in foreign-body, microbiological or allergen contamination of the product.</p>
+<p>Equipment that is in direct contact with food shall be suitable for food contact and meet legal requirements where applicable.</p>
+<h3>4.6.3</h3>
+<p>A documented, risk-based commissioning procedure shall be in place to ensure that food safety and integrity is maintained during the installation of new equipment to site.</p>
+<p>Installation work shall be followed by a documented hygiene clearance procedure.</p>
+<p>New equipment to site shall be inspected by an authorised member of staff before being accepted into operation.</p>
+<p>The commissioning procedure shall include the update of any other site procedures that are affected by the new equipment, for example, training, operating procedures, cleaning, environmental monitoring, maintenance schedules or internal audits.</p>
+<p>The design and placement of equipment shall ensure that it can be effectively cleaned and maintained.</p>
+<h3>4.6.4</h3>
+<p>A procedure shall be in place to manage the movement of static equipment in production areas, to ensure that food safety is managed and the integrity of the equipment is maintained.</p>
+<h3>4.6.5</h3>
+<p>Equipment that is not used or is taken out of service shall be cleaned and stored in a manner that does not pose a risk to the product.</p>
+<p>Equipment stored in internal production and storage areas shall be kept clean.</p>
+<p>Food contact equipment that has been stored but is not in daily use shall be cleaned and, where necessary, disinfected prior to use.</p>
+<h3>4.6.6</h3>
+<p>Mobile equipment (e.g. forklift trucks, pallet trucks, scissor lifts and ladders) used in open product areas shall not pose a risk to the product.</p>
+<p>Where the use of mobile equipment in external areas cannot be avoided and poses a risk to the product, the equipment shall be cleaned and disinfected prior to entering production.</p>
+<h3>4.6.7</h3>
+<p>Battery-charging equipment shall not be stored in open product areas (unless the batteries are fully sealed and/or maintenance-free) or where there is a risk to products.</p>
+<h2 id="4.7">4.7 Maintenance
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>An effective maintenance programme shall be in operation for plant and equipment, to prevent contamination and reduce the potential for breakdowns.</p>
+<h3>4.7.1</h3>
+<p>There shall be a planned preventive maintenance schedule or condition monitoring system which includes all plant, processing equipment and mobile equipment. The maintenance requirements shall be defined when commissioning new equipment and reviewed after repairing existing equipment.</p>
+<h3>4.7.2</h3>
+<p>In addition to any planned maintenance programme, where there is a risk of product contamination by foreign bodies arising from equipment damage, the equipment shall be inspected at predetermined intervals, the inspection results documented and appropriate action taken.</p>
+<h3>4.7.3</h3>
+<p>Where temporary repairs are made, these shall be documented and controlled to ensure that the safety or legality of products is not jeopardised. These temporary measures shall be permanently repaired as soon as practicable and within a defined timescale.</p>
+<h3>4.7.4</h3>
+<p>The site shall ensure that the safety or legality of products is not jeopardised during maintenance and subsequent cleaning operations. Maintenance work shall be followed by a documented hygiene clearance procedure.</p>
+<p>Equipment and machinery shall be inspected by an authorised member of staff to confirm the removal of contamination hazards, before being accepted back into operation.</p>
+<h3>4.7.5</h3>
+<p>Materials and parts used for equipment and plant maintenance shall be of an appropriate grade or quality.</p>
+<p>Those materials (such as lubricating oil) that pose a risk by direct or indirect contact with raw materials (including primary packaging), intermediate products and finished products shall be food grade and of a known allergen status.</p>
+<h3>4.7.6</h3>
+<p>Engineering workshops shall be kept clean and tidy, and controls shall be in place to prevent transfer of engineering debris to production or storage areas.</p>
+<h2 id="4.8">4.8 Staff facilities
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>Staff facilities shall be sufficient to accommodate the required number of personnel, and shall be designed and operated to minimise the risk of product contamination. The facilities shall be maintained in good and clean condition.</p>
+<h3>4.8.1</h3>
+<p>Designated changing facilities shall be provided for all personnel, whether staff, visitor or contractor. These shall be sited to allow direct access to the production, packing or storage areas without recourse to any external area. Where this is not possible, a risk assessment shall be carried out and procedures implemented accordingly (e.g. the provision of cleaning facilities for footwear).</p>
+<h3>4.8.2</h3>
+<p>Storage facilities of sufficient size to accommodate personal items shall be provided for all personnel who work in raw material-handling, preparation, processing, packing and storage areas.</p>
+<h3>4.8.3</h3>
+<p>Outdoor clothing and other personal items shall be stored separately from production clothing within the changing facilities. Facilities shall be available to separate clean and dirty production clothing.</p>
+<h3>4.8.4</h3>
+<p>Suitable and sufficient hand-washing facilities shall be provided at access to, and at other appropriate points within, production areas. Such hand-washing facilities shall provide, at a minimum:</p>
+<ul>
+<li>advisory signs to prompt hand-washing</li>
+<li>a sufficient quantity of water at a suitable temperature</li>
+<li>water taps with hands-free operation</li>
+<li>liquid/foam soap</li>
+<li>single-use towels or suitably designed and located air driers</li>
+</ul>
+<h3>4.8.5</h3>
+<p>Toilets shall be adequately segregated and shall not open directly into production or packing areas. Toilets shall be provided with hand-washing facilities comprising:</p>
+<ul>
+<li>basins with soap and water at a suitable temperature</li>
+<li>adequate hand-drying facilities</li>
+<li>advisory signs to prompt hand-washing</li>
+</ul>
+<p>Where hand-washing facilities within toilets are the only hand-washing facilities provided before re-entering production, the requirements of clause 4.8.4 shall apply and signs shall be in place to direct people to hand-washing facilities before entering production.</p>
+<h3>4.8.6</h3>
+<p>Where smoking is allowed under national law, designated controlled smoking areas shall be provided which are both isolated from production areas to an extent that ensures smoke cannot reach the product and fitted with sufficient extraction to the exterior of the building. Adequate arrangements for dealing with smokers’ waste shall be provided at smoking facilities, both inside and at exterior locations. Electronic cigarettes shall not be permitted to be used or brought into production or storage areas.</p>
+<h3>4.8.7</h3>
+<p>All food brought into manufacturing premises by staff shall be appropriately stored in a clean and hygienic state. No food shall be taken into storage, processing or production areas. Where eating of food is allowed outside during breaks, this shall be in suitable designated areas with appropriate control of waste.</p>
+<h3>4.8.8</h3>
+<p>Where catering facilities (including vending machines) are provided on the premises, they shall be suitably controlled to prevent contamination of products (e.g. as a source of food poisoning, the use of allergenic ingredients or introduction of new allergenic material to the site).</p>
+<h2 id="4.9">4.9 Chemical and physical product contamination control: raw material-handling, preparation, processing, packing and storage areas
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>Appropriate facilities and procedures shall be in place to control the risk of chemical or physical contamination of product.</p>
+<h3>4.9.1 Chemical control</h3>
+<h4>4.9.1.1</h4>
+<p>Processes shall be in place to manage the use, storage and handling of non-food chemicals to prevent chemical contamination. These shall include, at a minimum:</p>
+<ul>
+<li>an approved list of chemicals for purchase</li>
+<li>availability of material safety data sheets and specifications</li>
+<li>confirmation of suitability for use in a food-processing environment</li>
+<li>avoidance of strongly scented products</li>
+<li>the labelling and/or identification of containers of chemicals at all times</li>
+<li>a designated storage area (separate from chemicals used as raw materials in products) with access restricted to authorised personnel</li>
+<li>use by trained personnel only</li>
+<li>procedures to manage any spills</li>
+<li>procedures for the safe, legal disposal or return of obsolete or out-of-date chemicals and empty chemical containers</li>
+</ul>
+<h4>4.9.1.2</h4>
+<p>Where strongly scented or taint-forming materials have to be used, for instance for building work, procedures shall be in place to prevent the risk of taint contamination of products.</p>
+<h3>4.9.2 Metal control</h3>
+<h4>4.9.2.1</h4>
+<p>There shall be a documented policy for the controlled use and storage of sharp metal implements including knives, cutting blades on equipment, needles and wires. This shall include a record of inspection for damage and the investigation of any lost items. Snap-off blade knives shall not be used.</p>
+<h4>4.9.2.2</h4>
+<p>The purchase of ingredients and packaging which use staples or other foreign-body hazards as part of the packaging materials shall be avoided.</p>
+<p>Staples, paper clips and drawing pins shall not be used in open product areas.</p>
+<p>Where staples or other items are present as packaging materials or closures, appropriate precautions shall be taken to minimise the risk of product contamination.</p>
+<h3>4.9.3 Glass, brittle plastic, ceramics and similar materials</h3>
+<h4>4.9.3.1</h4>
+<p>Glass or other brittle materials shall be excluded or protected against breakage in areas where open products are handled or there is a risk of product contamination.</p>
+<h4>4.9.3.2</h4>
+<p>Procedures for handling glass and other brittle materials (other than product packaging) shall be in place where open products are handled or there is a risk of product contamination. These procedures shall include, at a minimum:</p>
+<ul>
+<li>a list of items detailing location, number, type and condition</li>
+<li>recorded checks of the condition of items, carried out at a specified frequency that is based on the level of risk to the product</li>
+<li>details on cleaning or replacing items to minimise the potential for product contamination</li>
+</ul>
+<h4>4.9.3.3</h4>
+<p>Procedures detailing the action to be taken in the event of breakage of glass or other brittle items shall be implemented and include the following:</p>
+<ul>
+<li>training of staff in the correct procedure</li>
+<li>quarantining the products and production area that were potentially affected</li>
+<li>cleaning the production area</li>
+<li>inspecting the production area and authorising production to continue</li>
+<li>changing of workwear and inspection of footwear</li>
+<li>specifying those staff authorised to carry out the above points</li>
+<li>recording the breakage incident</li>
+<li>safely disposing of contaminated product</li>
+</ul>
+<h4>4.9.3.4</h4>
+<p>Where they pose a risk to product, glass windows shall be protected against breakage.</p>
+<h4>4.9.3.5</h4>
+<p>Where they pose a risk to product, bulbs and strip lights (including those on electric fly-killer devices) shall be adequately protected. Where full protection cannot be provided, alternative management such as wire-mesh screens or monitoring procedures shall be in place.</p>
+<h3>4.9.4 Products packed into glass or other brittle containers</h3>
+<h4>4.9.4.1</h4>
+<p>The storage of the containers shall be segregated from the storage of raw materials, product or other packaging.</p>
+<h4>4.9.4.2</h4>
+<p>Systems shall be in place to manage container breakages between the container-cleaning/inspection point and container closure. This shall include, as a minimum, documented instructions which ensure:</p>
+<ul>
+<li>the removal and disposal of at-risk products in the vicinity of the breakage; this may be specific for different equipment or areas of the production line</li>
+<li>the effective cleaning of the line or equipment which may be contaminated by fragments of the container; cleaning shall not result in the further dispersal of fragments, for instance by the use of high-pressure water or air</li>
+<li>the use of dedicated, clearly identifiable cleaning equipment (e.g. colour-coded) for removal of container breakages; such equipment shall be stored separately from other cleaning equipment</li>
+<li>the use of dedicated, accessible, lidded waste containers for the collection of damaged containers and fragments</li>
+<li>a documented inspection of production equipment is undertaken following the cleaning of a breakage, to ensure cleaning has effectively removed any risk of further contamination</li>
+<li>authorisation given for production to restart following cleaning</li>
+<li>the area around the line being kept clear of broken glass</li>
+</ul>
+<h4>4.9.4.3</h4>
+<p>Records shall be maintained of all container breakages on the line. Where no breakages have occurred during a production period, this shall also be recorded. This record shall be reviewed to identify trends and potential line or container improvements.</p>
+<h3>4.9.5 Wood</h3>
+<h4>4.9.5.1</h4>
+<p>Wood should not be used in open product areas except where this is a process requirement (e.g. maturation of products in wood). Where the use of wood cannot be avoided, its condition shall be monitored on a risk-based frequency to ensure it is in good condition and free from damage or splinters which could contaminate products.</p>
+<p>Wood used for food contact purposes shall be fit for purpose (e.g. free from damage or splinters, free from taint; and wood treatments, where used, are used only in accordance with legislation and approved for food use).</p>
+<h3>4.9.6 Other physical contaminants</h3>
+<h4>4.9.6.1</h4>
+<p>Procedures shall be in place to prevent physical contamination of raw materials by raw material packaging (e.g. during debagging and deboxing procedures to remove the packaging).</p>
+<h4>4.9.6.2</h4>
+<p>Portable handheld equipment, e.g. stationery items (pens, pencils etc.), mobile phones, tablets and similar portable items used in open product areas, shall be controlled by the site to minimise the risk of physical contamination. The site may consider, for example:</p>
+<ul>
+<li>excluding non-approved items</li>
+<li>restricting the use to site-issued equipment</li>
+<li>ensuring stationery items such as pens are designed without small external parts and are detectable by foreign-body detection equipment, or are used in designated areas where contamination is prevented</li>
+</ul>
+<h4>4.9.6.3</h4>
+<p>Based on risk, procedures shall be implemented to minimise other types of foreign-body contamination (i.e. types of contamination that are not specifically covered in section 4.9).</p>
+<h2 id="4.10">4.10 Foreign-body detection and removal equipment
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>The risk of product contamination shall be reduced or eliminated by the effective use of equipment to remove or detect foreign bodies.</p>
+<h3>4.10.1 Selection and operation of foreign-body detection and removal equipment</h3>
+<h4>4.10.1.1</h4>
+<p>A documented assessment in association with the food safety plan (see section 2 – The food safety plan) shall be carried out on each production process to identify the potential use of equipment to detect or remove foreign-body contamination. Typical equipment to be considered may include:</p>
+<ul>
+<li>filters and sieves</li>
+<li>metal detection and X-ray detection equipment</li>
+<li>magnets</li>
+<li>optical sorting equipment</li>
+<li>other physical separation equipment (e.g. gravity separation, fluid bed technology)</li>
+</ul>
+<h4>4.10.1.2</h4>
+<p>The type, location and sensitivity of the detection and/or removal method shall be specified as part of the site’s documented system. Industry best practice shall be applied with regard to the nature of the ingredient, material, product and/or packed product. The location of the equipment or any other factors influencing the sensitivity of the equipment shall be validated and justified.</p>
+<h4>4.10.1.3</h4>
+<p>The site shall ensure that the frequency of the testing of the foreign-body detection and/or removal equipment is defined and takes into consideration:</p>
+<ul>
+<li>specific customer requirements</li>
+<li>the site’s ability to identify, hold and prevent the release of any affected materials, should the equipment fail</li>
+</ul>
+<p>The site shall establish and implement corrective action and reporting procedures in the event of a failure of the foreign-body detector and/or removal equipment. Action shall include a combination of isolation, quarantining and re-inspection of all products produced since the last successful test or inspection.</p>
+<h4>4.10.1.4</h4>
+<p>Where foreign material is detected or removed by the equipment, the source of any unexpected material shall be investigated. Information on rejected materials shall be used to identify trends and, where possible, instigate preventive action to reduce the occurrence of contamination by the foreign material.</p>
+<h3>4.10.2 Filters and sieves</h3>
+<h4>4.10.2.1</h4>
+<p>Filters and sieves used for foreign-body control shall be of a specified mesh size or gauge and designed to provide the maximum practical protection for the product.</p>
+<h4>4.10.2.2</h4>
+<p>Filters and sieves shall be regularly inspected or tested for damage at a documented frequency based on risk. Records shall be maintained of the checks. Where defective filters or sieves are identified, this shall be recorded and the potential for contamination of products investigated and appropriate action taken.</p>
+<h3>4.10.3 Metal detectors and X-ray equipment</h3>
+<h4>4.10.3.1</h4>
+<p>Metal detection equipment shall be in place unless risk assessment demonstrates that this does not improve food safety. Where metal detectors are not used, justification shall be documented. The absence of metal detection would only normally be based on the use of an alternative, more effective method of protection (e.g. use of X-ray, fine sieves or filtration of products).</p>
+<h4>4.10.3.2</h4>
+<p>The metal detector or X-ray equipment shall incorporate one of the following:</p>
+<ul>
+<li>an automatic rejection device, for continuous in-line systems, which shall divert contaminated product either out of the product flow or to a secure unit accessible only to authorised personnel</li>
+<li>a belt stop system with an alarm where the product cannot be automatically rejected (e.g. for very large packs)</li>
+<li>in-line detectors which identify the location of the contaminant to allow effective segregation of the affected product</li>
+</ul>
+<h4>4.10.3.3</h4>
+<p>The site shall establish and implement procedures for the operation and testing of the metal detection or X-ray equipment. This shall include, at a minimum:</p>
+<ul>
+<li>responsibilities for the testing of equipment</li>
+<li>the operating effectiveness and sensitivity of the equipment and any variation to this for particular products</li>
+<li>the methods and frequency of checking the detector</li>
+<li>recording of the results of checks</li>
+</ul>
+<h4>4.10.3.4</h4>
+<p>Metal detector testing procedures shall, at a minimum, include:</p>
+<ul>
+<li>use of test pieces incorporating a sphere of metal of a known diameter selected on the basis of risk. The test pieces shall be marked with the size and type of test material contained</li>
+<li>tests carried out using separate test pieces containing ferrous metal, stainless steel and typically non-ferrous metal, unless the product is within a foil container where a ferrous-only test may be applicable</li>
+<li>a test to prove that both the detection and rejection mechanisms are working effectively under normal working conditions</li>
+<li>tests of the metal detector by passing successive test packs through the unit at typical line operating speed</li>
+<li>checks of failsafe systems fitted to the detection and rejection systems</li>
+</ul>
+<p>In addition, where metal detectors are incorporated on conveyors, the test piece shall be passed as close as possible to the least sensitive area of the metal detector (usually the centre of the metal detector aperture). Wherever possible, the test piece shall be inserted within a clearly identified sample pack of the food being produced at the time of the test.</p>
+<p>Where in-line metal detectors are used, the test piece shall be placed in the product flow wherever this is possible, and the correct timing of the rejection system to remove identified contamination shall be validated. Testing of in-line metal detectors shall be completed during both line start-up and at the end of the production period.</p>
+<h4>4.10.3.5</h4>
+<p>X-ray equipment testing procedures shall, at a minimum, include:</p>
+<ul>
+<li>use of test pieces incorporating a sphere of suitable material (e.g. a typical contaminant) of a known diameter selected on the basis of risk. The test pieces shall be marked with the size and type of test material contained</li>
+<li>tests carried out using separate test pieces</li>
+<li>a test to prove that both the detection and rejection mechanisms are working effectively under normal working conditions</li>
+<li>tests of the X-ray equipment by passing successive test packs through the unit at typical line operating speed</li>
+<li>checks of failsafe systems fitted to the detection and rejection systems</li>
+</ul>
+<p>In addition, where X-ray equipment is incorporated on conveyors, the test piece shall be passed as close as possible to the least sensitive area of the X-ray equipment. Wherever possible, the test piece shall be inserted into a clearly identified sample pack of the food being produced at the time of the test.</p>
+<p>Where in-line X-ray equipment is used, the test piece shall be placed in the product flow wherever this is possible, and the correct timing of the rejection system to remove identified contamination shall be validated. Testing of in-line equipment shall be completed both during line start-up and at the end of the production period.</p>
+<h3>4.10.4 Magnets</h3>
+<h4>4.10.4.1</h4>
+<p>The type, location and strength of magnets shall be fully documented.</p>
+<p>Procedures shall be in place for the inspection, cleaning, strength testing and integrity checks of magnets used for food safety purposes, including final product testing, e.g. to remove product contamination. Records of all checks shall be maintained.</p>
+<h3>4.10.5 Optical sorting equipment</h3>
+<h4>4.10.5.1</h4>
+<p>Optical sorting equipment used for final product testing shall be checked in accordance with the manufacturer’s instructions or recommendations. Checks shall be documented.</p>
+<h3>4.10.6 Container cleanliness – glass jars, cans and other rigid containers</h3>
+<h4>4.10.6.1</h4>
+<p>Based on risk assessment, procedures shall be implemented to minimise foreign-body contamination originating from the packaging container (e.g. jars, cans and other pre-formed rigid containers). This may include the use of covered conveyors, container inversion and foreign-body removal through rinsing with water or air jets.</p>
+<h4>4.10.6.2</h4>
+<p>The effectiveness of the container-cleaning equipment shall be checked and recorded during each production. Where the system incorporates a rejection system for dirty or damaged containers, the check shall incorporate a test of both the detection and effective rejection of the test container.</p>
+<h3>4.10.7 Other foreign-body detection and removal equipment</h3>
+<h4>4.10.7.1</h4>
+<p>Other foreign-body detection and removal equipment, such as gravity separation, fluid bed technology or aspirators, shall be checked in accordance with the manufacturer’s instructions or recommendations.</p>
+<p>Checks shall be documented.</p>
+<h2 id="4.11">4.11 Housekeeping and hygiene
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p><strong>Fundamental</strong><br/>
+Housekeeping and cleaning systems shall be in place which ensure appropriate standards of hygiene are maintained at all times and the risk of product contamination is minimised.</p>
+<h4>4.11.1</h4>
+<p>The premises and equipment shall be maintained in a clean and hygienic condition.</p>
+<h4>4.11.2</h4>
+<p>Documented cleaning and disinfection procedures shall be in place and maintained for the building, plant and all equipment. Cleaning procedures for the processing equipment and food contact surfaces shall, at a minimum, include:</p>
+<ul>
+<li>responsibility for cleaning</li>
+<li>item/area to be cleaned</li>
+<li>frequency of cleaning</li>
+<li>method of cleaning, including dismantling equipment for cleaning purposes where required</li>
+<li>cleaning chemicals and concentrations</li>
+<li>cleaning materials to be used</li>
+<li>cleaning records (including records for completion and sign-off) and responsibility for verification</li>
+</ul>
+<p>The frequency and methods of cleaning shall be based on risk.</p>
+<p>The procedures shall be implemented to ensure appropriate standards of cleaning are achieved.</p>
+<h4>4.11.3</h4>
+<p>Limits of acceptable and unacceptable cleaning performance shall be defined for food contact surfaces and processing equipment. These limits shall be based on the potential hazards relevant to the product or processing area (e.g. microbiological, allergen, foreign-body or product-to-product contamination). Therefore, acceptable levels of cleaning may be defined by visual appearance, ATP bioluminescence techniques, microbiological testing, allergen testing or chemical testing as appropriate.</p>
+<p>The site shall define the corrective action to be taken when monitored results are outside of the acceptable limits.</p>
+<p>Where cleaning procedures are part of a defined prerequisite plan to control the risk of a specific hazard, the cleaning and disinfection procedures and their frequency shall be validated and records maintained. This shall include the risk from cleaning chemical residues on food contact surfaces.</p>
+<h4>4.11.4</h4>
+<p>The resources for undertaking cleaning shall be available. Where it is necessary to dismantle equipment for cleaning purposes or to enter large equipment for cleaning, this shall be appropriately scheduled and, where necessary, planned for non-production periods. Cleaning staff shall be adequately trained or engineering support provided where access within equipment is required for cleaning.</p>
+<h4>4.11.5</h4>
+<p>The cleanliness of equipment shall be checked before equipment is released back into production. The results of checks on cleaning, including visual, analytical and microbiological checks, shall be recorded and used to identify trends in cleaning performance and to suggest improvements where required.</p>
+<h4>4.11.6</h4>
+<p>Cleaning equipment shall be:</p>
+<ul>
+<li>hygienically designed and fit for purpose</li>
+<li>suitably identified for intended use (e.g. colour-coded or labelled)</li>
+<li>cleaned and stored in a hygienic manner to prevent contamination</li>
+</ul>
+<h3>4.11.7 Cleaning in place (CIP)</h3>
+<h4>4.11.7.1</h4>
+<p>All CIP equipment shall be designed and constructed to ensure effective operation. This shall include:</p>
+<ul>
+<li>validation confirming the correct design and operation of the system</li>
+<li>an up-to-date schematic diagram of the layout of the CIP system</li>
+<li>where rinse solutions are recovered and re-used, an assessment of the risk of cross-contamination</li>
+</ul>
+<p>Alterations or additions to the CIP system shall be authorised by a suitably competent individual before changes are made. A record of changes shall be maintained.</p>
+<p>The system shall be revalidated at a frequency based on risk, and following any alteration or addition.</p>
+<h4>4.11.7.2</h4>
+<p>Limits of acceptable and unacceptable performance for key process parameters shall be defined to ensure the removal of target hazards (e.g. soil, allergens, micro-organisms, spores). At a minimum these parameters shall include:</p>
+<ul>
+<li>times for each stage</li>
+<li>detergent concentrations</li>
+<li>flow rate and pressure</li>
+<li>temperatures</li>
+</ul>
+<p>These shall be validated and records of the validation maintained.</p>
+<h4>4.11.7.3</h4>
+<p>The CIP equipment shall be maintained by suitably trained staff to ensure effective cleaning is carried out. This shall include:</p>
+<ul>
+<li>routine checking of detergent concentrations</li>
+<li>monitoring of recovered post-rinse solutions for build-up of carry-over from the detergent tanks</li>
+<li>cleaning and inspection of filters, where fitted, at a defined frequency</li>
+<li>storing flexible hoses (where used) hygienically when not in use, and inspecting them at a defined frequency to ensure that they are in good condition</li>
+</ul>
+<h4>4.11.7.4</h4>
+<p>CIP facilities, where used, shall be monitored at a defined frequency based on risk. This may include:</p>
+<ul>
+<li>monitoring of process parameters defined in clause 4.11.7.2</li>
+<li>ensuring correct connections, piping and settings are in place</li>
+<li>confirming the process is operating correctly (e.g. valves are opening/closing sequentially, spray balls are operating correctly)</li>
+<li>ensuring effective completion of the cleaning cycle</li>
+<li>monitoring for effective results, including draining where required</li>
+</ul>
+<p>Procedures shall define the action to be taken if monitoring indicates that processing is outside the defined limits.</p>
+<h3>4.11.8 Environmental monitoring</h3>
+<p>Risk-based environmental monitoring programmes shall be in place for relevant pathogens or spoilage organisms. At a minimum, these shall include all production areas with open and/or ready-to-eat products.</p>
+<h4>4.11.8.1</h4>
+<p>The design of the environmental monitoring programme shall be based on risk, and at a minimum include:</p>
+<ul>
+<li>sampling procedures</li>
+<li>identification of sample locations</li>
+<li>frequency of tests</li>
+<li>target organism(s) (e.g. pathogens, spoilage organisms and/or indicator organisms)</li>
+<li>test methods (e.g. settle plates, rapid testing and swabs)</li>
+<li>recording and evaluation of results</li>
+</ul>
+<p>The programme and its associated procedures shall be documented.</p>
+<h4>4.11.8.2</h4>
+<p>Appropriate control or action limits shall be defined for the environmental monitoring programme.</p>
+<p>The company shall document the corrective action to be taken when monitored results indicate a failure to meet a control limit, or when monitored results indicate an upward trend of positive results (i.e. a trend towards a control or action limit).</p>
+<h4>4.11.8.3</h4>
+<p>The company shall review the environmental monitoring programme at least annually and whenever there are:</p>
+<ul>
+<li>changes in processing conditions, process flow or equipment which could impact the environmental monitoring programme</li>
+<li>new developments in scientific information (e.g. new pathogens of concern)</li>
+<li>failures of the programme to identify a significant issue (e.g. regulatory authority tests)</li>
+<li>identifying positive results which the site programme did not</li>
+<li>product failures (products with positive tests)</li>
+<li>consistently negative results (e.g. a site with a long history of negative results should review its programme to consider whether the correct parts of the factory are being tested, whether the testing is being conducted correctly, whether the tests are for the appropriate organisms, etc.)</li>
+</ul>
+<h2 id="4.12">4.12 Waste and waste disposal
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>Waste disposal shall be managed in accordance with legal requirements and to prevent accumulation, risk of contamination and the attraction of pests.</p>
+<h4>4.12.1</h4>
+<p>Where licensing is required by law for the removal of waste, it shall be removed by licensed contractors and records of removal shall be maintained and available for audit.</p>
+<h4>4.12.2</h4>
+<p>Internal and external waste collection containers and rooms housing waste facilities shall be managed to minimise risk. These shall be:</p>
+<ul>
+<li>clearly identified</li>
+<li>designed for ease of use and effective cleaning</li>
+<li>well maintained to allow cleaning and, where required, disinfection</li>
+<li>emptied at appropriate frequencies</li>
+</ul>
+<p>External waste containers shall be covered or doors kept closed as appropriate.</p>
+<h4>4.12.3</h4>
+<p>Waste removal from open product areas shall be managed to ensure that it does not compromise product safety.</p>
+<h4>4.12.4</h4>
+<p>If unsafe products or substandard trademarked materials are transferred to a third party for destruction or disposal, that third party shall be a specialist in secure product or waste disposal and shall provide records which include the quantity of waste collected for destruction or disposal.</p>
+<h2 id="4.13">4.13 Management of surplus food and products for animal feed
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>Effective processes shall be in place to ensure the safety and legality of by-products of the primary processing activity of the site.</p>
+<h4>4.13.1</h4>
+<p>Surplus customer-branded products shall be disposed of in accordance with customer-specific requirements. Customer brand names shall be removed from packed surplus products under the control of the factory before the product enters the supply chain, unless otherwise authorised by the customer.</p>
+<h4>4.13.2</h4>
+<p>Where customer-branded products which do not meet specifications are sold to staff or passed on to charities or other organisations, this shall be with the prior consent of the brand owner.</p>
+<p>Processes shall be in place to ensure that all products (own-branded and customer-branded) which are sold to staff or passed on to charities or other organisations are fit for consumption and meet legal requirements, and that their traceability is maintained.</p>
+<h4>4.13.3</h4>
+<p>By-products and downgraded/surplus products intended for animal feed shall be segregated from waste and protected from contamination during storage. Products for animal feed shall be managed in accordance with the relevant legislative requirements.</p>
+<h2 id="4.14">4.14 Pest management
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>The whole site shall have an effective preventive pest management programme in place to minimise the risk of pest presence, and resources shall be available to respond rapidly to any issues which occur to prevent risk to products.</p>
+<p>Pest management programmes shall comply with all applicable legislation.</p>
+<h4>4.14.1</h4>
+<p>If pest activity is identified, it shall not present a risk of contamination to products, raw materials or packaging.</p>
+<p>The presence of any infestation on site shall be documented in pest management records and be part of an effective pest management programme to eliminate or manage the infestation so that it does not present a risk to products, raw materials or packaging.</p>
+<h4>4.14.2</h4>
+<p>The site shall either contract the services of a competent pest management organisation or have appropriately trained staff for the regular inspection and treatment of the site to deter and eradicate infestation.</p>
+<p>The frequency of inspections shall be determined by risk assessment and shall be documented. The risk assessment shall be reviewed whenever:</p>
+<ul>
+<li>there are changes to the building or production processes which could have an impact on the pest management programme</li>
+<li>there has been a significant pest issue</li>
+</ul>
+<p>Where the services of a pest management contractor are employed, the service scope shall be clearly defined and reflect the activities of the site.</p>
+<p>Service provision, regardless of the source, shall meet with all applicable regulatory requirements.</p>
+<h4>4.14.4</h4>
+<p>Pest management documentation and records shall be maintained. At a minimum, this shall include:</p>
+<ul>
+<li>an up-to-date plan of the full site, identifying pest control devices and their locations</li>
+<li>identification of the baits and/or monitoring devices on site</li>
+<li>clearly defined responsibilities for the site management and the contractor</li>
+<li>details of pest control products used, including instructions for their effective use and action to be taken in the event of an emergency</li>
+<li>any observed pest activity</li>
+<li>details of pest control treatments undertaken</li>
+</ul>
+<p>Records may be on paper (hard copy) or controlled on an electronic system (e.g. an online reporting system).</p>
+<h4>4.14.5</h4>
+<p>Bait stations or other rodent monitoring or control devices shall be appropriately located and maintained to prevent contamination risk to product. Toxic rodent baits shall not be used within production or storage areas where open product is present except when treating an active infestation. Where toxic baits are used, these shall be secured.</p>
+<p>Any missing bait stations shall be recorded, reviewed and investigated.</p>
+<h4>4.14.6</h4>
+<p>Insect-killing devices, pheromone traps and/or other insect-monitoring devices shall be appropriately sited and operational. If there is a danger of insects being expelled from a fly-killing extermination device and contaminating the product, alternative systems and equipment shall be used.</p>
+<h4>4.14.7</h4>
+<p>The site shall have adequate measures in place to prevent birds from entering buildings or roosting above loading or unloading areas.</p>
+<h4>4.14.8</h4>
+<p>In the event of infestation, or evidence of pest activity, immediate action shall be taken to identify at-risk products and to minimise the risk of product contamination. Any potentially affected products should be subject to the non-conforming product procedure.</p>
+<h4>4.14.9</h4>
+<p>Records of pest management inspections, pest proofing and hygiene recommendations and actions taken shall be maintained. It shall be the responsibility of the site to ensure that all of the relevant recommendations made by its contractor or in-house expert are carried out in a timely manner.</p>
+<h4>4.14.10</h4>
+<p>An in-depth, documented pest management assessment shall be undertaken at a frequency based on risk, but at least annually, by a pest management expert to review the pest management measures in place. The assessment shall:</p>
+<ul>
+<li>include an in-depth inspection of the site, equipment and facilities for pest activity</li>
+<li>review the existing pest management measures in place and make any recommendations for change</li>
+</ul>
+<p>The assessment shall be timed to allow access to equipment for inspection where a risk of stored product insect infestation exists.</p>
+<h4>4.14.11</h4>
+<p>Results of pest management inspections shall be assessed and analysed for trends on a regular basis. At a minimum, results of inspections shall be analysed:</p>
+<ul>
+<li>annually or</li>
+<li>in the event of an infestation</li>
+</ul>
+<p>The analysis shall include results from trapping and monitoring devices to identify problem areas. The analysis shall be used as a basis for improving the pest management procedures.</p>
+<h4>4.14.12</h4>
+<p>Staff shall understand the signs of pest activity and be aware of the need to report any evidence of such activity to a designated manager.</p>
+<h2 id="4.15">4.15 Storage facilities
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>All facilities used for the storage of raw materials, packaging, in-process products and finished products shall be suitable for purpose.</p>
+<h4>4.15.1</h4>
+<p>Procedures to maintain product safety and quality during storage shall be developed on the basis of risk assessment, understood by relevant staff and implemented accordingly. These may include, as appropriate:</p>
+<ul>
+<li>managing chilled and frozen product transfer between temperature-controlled areas</li>
+<li>segregation of products where necessary to avoid cross-contamination (physical, microbiological or allergens) or taint uptake</li>
+<li>storing materials off the floor and away from walls</li>
+<li>specific handling or stacking requirements to prevent product damage</li>
+</ul>
+<h4>4.15.2</h4>
+<p>Where appropriate, packaging shall be stored away from other raw materials and finished product. Any part-used packaging materials suitable for use shall be effectively protected from contamination and clearly identified to maintain traceability before being returned to an appropriate storage area.</p>
+<h4>4.15.3</h4>
+<p>Where temperature control is required (e.g. for raw materials, semi-finished materials or final products), the storage area shall be capable of maintaining product temperature within specification and operated to ensure specified temperatures are maintained. Temperature recording equipment with suitable temperature alarms shall be fitted to all storage facilities or there shall be a system of recorded manual temperature checks, typically on at least a 4-hourly basis or at a frequency which allows for intervention before product temperatures exceed defined limits for the safety, legality or quality of products.</p>
+<h4>4.15.4</h4>
+<p>Where controlled atmosphere storage is required, the storage conditions shall be specified and effectively controlled. Records shall be maintained of the storage conditions.</p>
+<h4>4.15.5</h4>
+<p>Where storage outside is necessary, items shall be protected from contamination and deterioration. Items shall be checked for suitability before being brought into the factory.</p>
+<h4>4.15.6</h4>
+<p>The site shall facilitate correct stock rotation of raw materials, intermediate products and finished products in storage and ensure that materials are used in the correct order in relation to their manufacturing date and within the prescribed shelf life.</p>
+<h2 id="4.16">4.16 Dispatch and transport
+<a href="#top" onclick="showNav();" style="display:inline-block;margin-left:10px;padding:6px 12px;border-radius:10px;background:linear-gradient(to right, #f39c12, #d35400);color:white;font-size:0.9em;text-decoration:none;font-weight:bold;box-shadow:0 2px 5px rgba(0,0,0,0.2);">↑ Back to Top</a>
+</h2>
+<p>Procedures shall be in place to ensure that the management of dispatch and of the vehicles and containers used for transporting products from the site do not present a risk to the safety, security or quality of the products.</p>
+<h4>4.16.1</h4>
+<p>Procedures to maintain product safety and quality during loading and transportation shall be developed and implemented. These may include, as appropriate:</p>
+<ul>
+<li>controlling temperature of loading dock areas and vehicles</li>
+<li>the use of covered bays for vehicle loading or unloading</li>
+<li>securing loads on pallets to prevent movement during transit</li>
+<li>inspection of loads prior to dispatch</li>
+</ul>
+<h4>4.16.2</h4>
+<p>All vehicles or containers used for the transport of raw materials and the dispatch of products shall be fit for purpose. This shall ensure that they are:</p>
+<ul>
+<li>in a clean condition</li>
+<li>free from strong odours which may cause taint to products</li>
+<li>in a suitable condition to prevent damage to products during transit</li>
+<li>equipped to ensure any temperature requirements can be maintained throughout transportation</li>
+</ul>
+<p>Records of inspections shall be maintained.</p>
+<h4>4.16.3</h4>
+<p>Where temperature control is required, the transport shall be capable of maintaining product temperature within specification, under minimum and maximum load. Temperature data-logging devices which can be interrogated to confirm time/temperature conditions, or a system to monitor and record at predetermined frequencies the correct operation of refrigeration equipment, shall be used and records maintained.</p>
+<h4>4.16.4</h4>
+<p>Maintenance systems and documented cleaning procedures shall be available for all vehicles and equipment used for loading/unloading. There shall be records of the measures taken.</p>
+<h4>4.16.5</h4>
+<p>The company shall have procedures for the transport of products, which shall include:</p>
+<ul>
+<li>any restrictions on the use of mixed loads</li>
+<li>requirements for the security of products during transit, particularly when vehicles are parked and unattended</li>
+<li>clear instructions in the event of vehicle breakdown, accident or failure of refrigeration systems, which ensure that the safety of the products is assessed and records maintained</li>
+</ul>
+<h4>4.16.6</h4>
+<p>Where the company uses contractors, it shall have a documented supplier approval procedure to ensure risks to food quality and safety are effectively managed during dispatch and transport operations. The approval procedure shall be based on risk and include either one or a combination of:</p>
+<ul>
+<li>a valid certification to the applicable BRCGS Standard (e.g. Global Standard Storage and Distribution) or GFSI-benchmarked standard</li>
+</ul>
+<p><strong>or</strong></p>
+<ul>
+<li>a completed contract or terms and conditions. At a minimum, this shall include all the requirements of clauses 4.16.1 to 4.16.5. This shall have been reviewed and verified by a demonstrably competent person.</li>
+</ul>

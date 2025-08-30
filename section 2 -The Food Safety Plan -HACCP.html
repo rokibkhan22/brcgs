@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRC Clause 2</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .nav-panel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .nav-button {
+    background-color: #003366;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .search-bar button {
+    padding: 10px;
+    background-color: #2b7bb9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .text-size-controls {
+    margin-bottom: 20px;
+  }
+
+  .text-size-controls select {
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  h1, h2, h3 {
+    word-break: break-word;
+  }
+
+  mark {
+    background-color: yellow;
+    font-weight: bold;
+  }
+
+  .back-to-top {
+    display: inline-block;
+    margin-left: 10px;
+    background: linear-gradient(to bottom, #ffcc66 0%, #ff6600 100%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  @media (min-width: 600px) {
+    .search-bar {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .search-bar input {
+      width: auto;
+      flex-grow: 1;
+    }
+
+    .search-bar button {
+      width: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .nav-button {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body><div style="margin: 10px;"><a href="index.html" style="background-color: #003366; color: white; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-weight: bold;">Home</a></div><a name="top"></a><h1>Clause 2: The Food Safety Plan – HACCP</h1><div class="search-bar" id="searchBar">
+<input id="searchInput" placeholder="Search..." type="text"/>
+<button onclick="searchText()">Search</button>
+</div><div class="nav-panel"><a class="nav-button" href="#2_1">2.1 The HACCP food safety team</a><a class="nav-button" href="#2_2">2.2 Prerequisite programmes</a><a class="nav-button" href="#2_3">2.3 Describe the product</a><a class="nav-button" href="#2_4">2.4 Identify intended use</a><a class="nav-button" href="#2_5">2.5 Construct a process flow diagram</a><a class="nav-button" href="#2_6">2.6 Verify process flow diagram</a><a class="nav-button" href="#2_7">2.7 List all potential hazards</a><a class="nav-button" href="#2_8">2.8 Determine the CCPs</a><a class="nav-button" href="#2_9">2.9 Establish validated critical limits</a><a class="nav-button" href="#2_10">2.10 Establish a monitoring system</a><a class="nav-button" href="#2_11">2.11 Establish a corrective action plan</a><a class="nav-button" href="#2_12">2.12 Validate the HACCP plan</a><a class="nav-button" href="#2_13">2.13 HACCP documentation</a></div><div class="text-size-controls">
+  Text size:
+  <select onchange="changeTextSize(this.value)">
+<option value="16px">Default</option>
+<option value="18px">Large</option>
+<option value="20px">Extra Large</option>
+</select>
+</div>
+<h2 id="Fundamental">Fundamental<a class="back-to-top" href="#top">Back to Top</a></h2>
+<p>
+  The company shall have a fully implemented and effective food safety plan incorporating the Codex Alimentarius HACCP principles.
+</p>
+<h2 id="2_1">2.1 The HACCP food safety team (equivalent to Codex Alimentarius Step 1)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.1.1</h3>
+<p>
+  The HACCP or food safety plan shall be developed and managed by a multi-disciplinary food safety team that includes those responsible for quality assurance, technical management, production operations and other relevant functions (e.g. engineering, hygiene).
+</p>
+<p>
+  The team leader shall have an in-depth knowledge of Codex HACCP principles (or equivalent) and be able to demonstrate competence, experience and training. Where there is a legal requirement for specific training, this shall be in place.
+</p>
+<p>
+  The team members shall have specific knowledge of HACCP and relevant knowledge of products, processes and associated hazards.
+</p>
+<h3>2.1.2</h3>
+<p>
+  The scope of each HACCP or food safety plan, including the products and processes covered, shall be defined.
+</p>
+<h2 id="2_2">2.2 Prerequisite programmes<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.2.1</h3>
+<p>
+  The site shall establish and maintain environmental and operational programmes necessary to create an environment suitable to produce safe and legal food products (prerequisite programmes). As a guide these may include the following, although this is not an exhaustive list:
+</p>
+<p>
+  • cleaning and disinfection (see section 4.11)<br/>
+  • pest management (see section 4.14)<br/>
+  • maintenance programmes for equipment and buildings (see sections 4.4 and 4.6)<br/>
+  • personal hygiene requirements (see section 7.2)<br/>
+  • staff training (see section 7.1)<br/>
+  • supplier approval and purchasing (see section 3.5.1)<br/>
+  • transportation arrangements (see section 4.16)<br/>
+  • processes to prevent cross-contamination (see sections 4.9 and 4.10)<br/>
+  • allergen management (see section 5.3)
+</p>
+<p>
+  The prerequisite programmes for the particular areas of the site shall take into account the production risk zoning (see clause 4.3.1).
+</p>
+<p>
+  The control measures and monitoring procedures for the prerequisite programmes shall be clearly documented and shall be included within the development and reviews of the HACCP or food safety plan.
+</p>
+<h2 id="2_3">2.3 Describe the product (equivalent to Codex Alimentarius Step 2)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.3.1</h3>
+<p>
+  A full description for each product or group of products shall be developed, which includes all relevant information on food safety. As a guide, this may include the following, although this is not an exhaustive list:
+</p>
+<p>
+  • composition (e.g. raw materials, ingredients, allergens, recipe)<br/>
+  • origin of ingredients<br/>
+  • physical or chemical properties that impact food safety (e.g. pH, a<sub>w</sub>)<br/>
+  • treatment and processing (e.g. cooking, cooling)<br/>
+  • packaging system (e.g. modified atmosphere, vacuum)<br/>
+  • storage and distribution conditions (e.g. chilled, ambient)<br/>
+  • maximum safe shelf life under prescribed storage and usage conditions.
+</p>
+<h3>2.3.2</h3>
+<p>
+  All relevant information needed to conduct the hazard analysis shall be collected, maintained, documented and updated. The company shall ensure that the HACCP or food safety plan is based on comprehensive information sources, which are referenced and available on request. As a guide, this may include the following, although this is not an exhaustive list:
+</p>
+<p>
+  • the latest scientific literature<br/>
+  • historical and known hazards associated with specific food products<br/>
+  • relevant codes of practice<br/>
+  • recognised guidelines<br/>
+  • food safety legislation relevant for the production and sale of products<br/>
+  • customer requirements<br/>
+  • a copy of any existing site HACCP plans (e.g. for products already in production at the site)<br/>
+  • a map of the premises and equipment layout (see clause 4.3.2)<br/>
+  • a water distribution diagram for the site (see clause 4.5.2)<br/>
+  • indication of any areas (zones) where high-risk, high-care or ambient high-care production facilities are required (see clause 4.3.1).
+</p>
+<h2 id="2_4">2.4 Identify intended use (equivalent to Codex Alimentarius Step 3)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.4.1</h3>
+<p>
+  The intended use of the product by the customer, and expected alternative uses, shall be described, defining the consumer target groups, including the suitability of the product for vulnerable groups of the population (e.g. infants, elderly, allergy sufferers).
+</p>
+<h2 id="2_5">2.5 Construct a process flow diagram (equivalent to Codex Alimentarius Step 4)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.5.1</h3>
+<p>
+  A flow diagram shall be prepared to cover each product, product category or process. This shall set out all aspects of the food process operation within the HACCP or food safety plan scope, from raw material receipt through to processing, storage and distribution. As a guide, this should include the following, although this is not an exhaustive list:
+</p>
+<p>
+  • plan of premises and equipment layout<br/>
+  • raw materials, including introduction of utilities and other contact materials (e.g. water, packaging)<br/>
+  • sequence and interaction of all process steps<br/>
+  • outsourced processes and subcontracted work<br/>
+  • potential for process delay<br/>
+  • rework and recycling<br/>
+  • low-risk/high-risk/high-care area segregation<br/>
+  • finished products, intermediate/semi-processed products, by-products and waste.
+</p>
+<h2 id="2_6">2.6 Verify process flow diagram (equivalent to Codex Alimentarius Step 5)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.6.1</h3>
+<p>
+  The HACCP food safety team shall verify the accuracy of the flow diagrams by on-site audit at least annually, and whenever there are changes to the process, to ensure any changes have been considered as a part of the HACCP or food safety plan. Daily and seasonal variations shall be considered and evaluated. Records of verified flow diagrams shall be maintained.
+</p>
+<h2 id="2_7">2.7 List all potential hazards associated with each process step, conduct a hazard analysis and consider any measures to control identified hazards (equivalent to Codex Alimentarius Step 6, Principle 1)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.7.1</h3>
+<p>
+  The HACCP food safety team shall identify and record all the potential hazards that are reasonably expected to occur at each step in relation to product, process and facilities. This shall include hazards present in raw materials, those introduced during the process or surviving the process steps, and consideration of the following types of hazard:
+</p>
+<p>
+  • microbiological<br/>
+  • physical contamination<br/>
+  • chemical and radiological contamination<br/>
+  • fraud (e.g. substitution or deliberate/intentional adulteration) (see section 5.4)<br/>
+  • malicious contamination of products (see section 4.2)<br/>
+  • allergen risks (see section 5.3)
+</p>
+<p>
+  It shall also take account of the preceding and following steps in the process chain.
+</p>
+<h3>2.7.2</h3>
+<p>
+  The HACCP food safety team shall conduct a hazard analysis to identify the significant hazards (i.e. those hazards that are reasonably likely to occur at an unacceptable level), which need to be prevented, eliminated or reduced to acceptable levels. Consideration shall be given to the following:
+</p>
+<p>
+  • likely occurrence of hazard<br/>
+  • severity of the effects on consumer safety<br/>
+  • vulnerability of those exposed<br/>
+  • survival and multiplication of micro-organisms of specific concern to the product<br/>
+  • presence or production of toxins, chemicals or foreign bodies<br/>
+  • contamination of raw materials, intermediate/semi-processed product, or finished product.
+</p>
+<p>
+  Where elimination of the hazard is not practical, justification for acceptable levels of the hazard in the finished product shall be determined and documented.
+</p>
+<h3>2.7.3</h3>
+<p>
+  The HACCP food safety team shall consider the control measures necessary to prevent or eliminate a food safety hazard or reduce it to an acceptable level.
+</p>
+<p>
+  Consideration may be given to using more than one control measure.
+</p>
+<h3>2.7.4</h3>
+<p>
+  Where the control of a specific food safety hazard is achieved through prerequisite programmes (see section 2.2) or control measures other than critical control points (CCPs; see clause 2.8.1), this shall be stated and the adequacy of the programme to control the specific hazard validated.
+</p>
+<h2 id="2_8">2.8 Determine the CCPs (equivalent to Codex Alimentarius Step 7, Principle 2)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.8.1</h3>
+<p>
+  For each hazard that requires control, control points shall be reviewed to identify those that are critical. This requires a logical approach and may be facilitated by use of a decision tree. CCPs shall be those control points which are required in order to prevent or eliminate a food safety hazard or reduce it to an acceptable level. If a hazard is identified at a step where control is necessary for safety but the control does not exist, the product or process shall be modified at that step, or at an earlier step, to provide a control measure.
+</p>
+<h2 id="2_9">2.9 Establish validated critical limits for each CCP (equivalent to Codex Alimentarius Step 8, Principle 3)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.9.1</h3>
+<p>
+  For each CCP, the appropriate critical limits shall be defined in order to identify clearly whether the process is in or out of control. Critical limits shall be:
+</p>
+<p>
+  • measurable wherever possible (e.g. time, temperature, pH)<br/>
+  • supported by clear guidance or examples where measures are subjective (e.g. photographs).
+</p>
+<h3>2.9.2</h3>
+<p>
+  The HACCP food safety team shall validate each CCP, including critical limits. Documented evidence shall show that the control measures selected and critical limits identified are capable of consistently controlling the hazard to the specified acceptable level.
+</p>
+<h2 id="2_10">2.10 Establish a monitoring system for each CCP (equivalent to Codex Alimentarius Step 9, Principle 4)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.10.1</h3>
+<p>
+  A monitoring procedure shall be established for each CCP to ensure compliance with critical limits. The monitoring system shall be able to detect loss of control of CCPs and, wherever possible, provide information in time for corrective action to be taken. As a guide, consideration may be given to the following, although this is not an exhaustive list:
+</p>
+<p>
+  • online measurement<br/>
+  • offline measurement<br/>
+  • continuous measurement (e.g. thermographs, pH meters).
+</p>
+<p>
+  Where discontinuous measurement is used, the system shall ensure that the sample taken is representative of the batch of product.
+</p>
+<h3>2.10.2</h3>
+<p>
+  Records associated with the monitoring of each CCP shall include the date, time and result of measurement, and shall be signed by the person responsible for the monitoring and verified, when appropriate, by a suitably competent and authorised person. Where records are in electronic form, there shall be evidence that records have been checked and verified.
+</p>
+<h2 id="2_11">2.11 Establish a corrective action plan (equivalent to Codex Alimentarius Step 10, Principle 5)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.11.1</h3>
+<p>
+  The HACCP food safety team shall specify and document the corrective action to be taken when monitored results indicate a failure to meet a control limit, or when monitored results indicate a trend towards loss of control. This shall include the action to be taken by nominated personnel with regard to any products that have been manufactured during the period when the process was out of control.
+</p>
+<h2 id="2_12">2.12 Validate the HACCP plan and establish verification procedures (equivalent to Codex Alimentarius Step 11, Principle 6)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.12.1</h3>
+<p>
+  HACCP or food safety plans shall be validated prior to any changes which may affect product safety, to ensure that the plan will effectively control the identified hazards before implementation.
+</p>
+<p>
+  For existing HACCP or food safety plans, this may be achieved using the established processes detailed in clauses 2.12.2 and 2.12.3.
+</p>
+<h3>2.12.2</h3>
+<p>
+  Procedures of verification shall be established to confirm that the HACCP or food safety plan, including controls managed by prerequisite programmes, continues to be effective.
+</p>
+<p>
+  Examples of verification activities include:
+</p>
+<p>
+  • internal audits<br/>
+  • review of records where acceptable limits have been exceeded<br/>
+  • review of complaints by enforcement authorities or customers<br/>
+  • review of incidents of product withdrawal or recall.
+</p>
+<p>
+  Results of verification shall be recorded and communicated to the HACCP food safety team.
+</p>
+<h3>2.12.3</h3>
+<p>
+  The HACCP food safety team shall review the HACCP or food safety plan and prerequisite programmes at least annually and prior to any changes which may affect food safety. As a guide, these may include the following, although this is not an exhaustive list:
+</p>
+<p>
+  • change in raw materials or supplier of raw materials<br/>
+  • change in ingredients/recipe<br/>
+  • change in processing conditions, cleaning and disinfection procedures, process flow or equipment<br/>
+  • change in packaging, storage or distribution conditions<br/>
+  • change in consumer use<br/>
+  • emergence of a new risk (e.g. known adulteration of an ingredient or other relevant, published information, such as the recall of a similar product)<br/>
+  • review following a significant product safety incident (e.g. a product recall)<br/>
+  • new developments in scientific information associated with ingredients, process, packaging or product.
+</p>
+<p>
+  Appropriate changes resulting from the review shall be incorporated into the HACCP or food safety plan and/or prerequisite programmes. Changes shall be fully documented, and the validation shall be recorded.
+</p>
+<p>
+  Where appropriate, the changes shall also be reflected in the company’s product safety policy and food safety objectives.
+</p>
+<h2 id="2_13">2.13 HACCP documentation and record-keeping (equivalent to Codex Alimentarius Step 12, Principle 7)<a class="back-to-top" href="#top">Back to Top</a></h2>
+<h3>2.13.1</h3>
+<p>
+  Documentation and record-keeping shall be sufficient to enable the site to verify that the HACCP and food safety controls, including controls managed by prerequisite programmes, are in place and maintained.
+</p>
+<script>
+let searchMatches = [];
+let currentMatchIndex = 0;
+
+function resetHighlights() {
+  document.querySelectorAll("mark").forEach(mark => {
+    const text = document.createTextNode(mark.textContent);
+    mark.parentNode.replaceChild(text, mark);
+  });
+}
+
+function searchText() {
+  const input = document.getElementById("searchInput").value.trim().toLowerCase();
+  if (!input) return;
+
+  resetHighlights();
+  searchMatches = [];
+  currentMatchIndex = 0;
+
+  const elements = document.querySelectorAll("p, h1, h2, h3");
+  elements.forEach(el => {
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+
+    nodes.forEach(node => {
+      const value = node.nodeValue;
+      const index = value.toLowerCase().indexOf(input);
+      if (index !== -1) {
+        const span = document.createElement("span");
+        const before = value.slice(0, index);
+        const match = value.slice(index, index + input.length);
+        const after = value.slice(index + input.length);
+
+        span.appendChild(document.createTextNode(before));
+        const mark = document.createElement("mark");
+        mark.textContent = match;
+        span.appendChild(mark);
+        span.appendChild(document.createTextNode(after));
+
+        node.parentNode.replaceChild(span, node);
+        searchMatches.push(mark);
+      }
+    });
+  });
+
+  if (searchMatches.length > 0) {
+    searchMatches[currentMatchIndex].scrollIntoView({ behavior: "smooth", block: "center" });
+    currentMatchIndex = (currentMatchIndex + 1) % searchMatches.length;
+  } else {
+    alert("No results found");
+  }
+
+  // Keep search bar always visible and only hide nav panel
+  const navPanel = document.querySelector(".nav-panel");
+  if (navPanel) navPanel.style.display = "none";
+
+  const searchBar = document.querySelector(".search-bar");
+  if (searchBar) searchBar.style.display = "flex";
+}
+
+function changeTextSize(size) {
+  document.body.style.fontSize = size;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".back-to-top").forEach(link => {
+    link.addEventListener("click", () => {
+      const navPanel = document.querySelector(".nav-panel");
+      if (navPanel) navPanel.style.display = "flex";
+    });
+  });
+});
+</script>
+</body>
+</html>
